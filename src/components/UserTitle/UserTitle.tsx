@@ -16,7 +16,7 @@ export const UserTitle = ({name, login, created}: UserTitleProps) => {
 
     return (
         <div className={styles.userTitle}>
-            <h2>{name || 'Name is undefined'}</h2>
+            <h2>{name || 'No name'}</h2>
             <h3>{login}</h3>
             <span>{joinedDate}</span>
         </div>)
